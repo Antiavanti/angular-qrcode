@@ -122,7 +122,7 @@ angular.module('monospaced.qrcode', [])
               }
 
               if (download) {
-                domElement.download = 'qrcode.png';
+                domElement.download = data + '.png';
                 domElement.title = 'Download QR code';
               }
 
